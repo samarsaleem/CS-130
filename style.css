@@ -15,7 +15,7 @@ p, li {
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: darkblue;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -29,7 +29,7 @@ page-section {
 }
 
 .container {
-    color: purple;
+    color: mediumblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 5fr 5fr;
@@ -46,31 +46,31 @@ article, aside, section, main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1.5px #000
+    border: solid 1.5px white
 }
 .menu1 {
     grid-area: a;
-    background: lightgrey;
+    background: blue;
     margin: 5px;
 }
 .menu2 {
     grid-area: b;
-    background: grey;
-    color: grey;
+    background: lightblue;
+    color: lightblue;
     margin: 5px;
 }
 article {
-    background: whitesmoke}
+    background: lightskyblue}
     .card1 {grid-area: c;}
     .card2 {grid-area: d;}
     .card3 {grid-area: e;}
 main {
     grid-area: g;
-    background: whitesmoke;
+    background: skyblue;
 }
 aside {
     grid-area: f;
-    background: lightskyblue
+    background: darkcyan
 }
 @media (max-width: 800px){
     .container {
@@ -109,3 +109,6 @@ h1 {
    font-size:  2.5em;
 
 }
+h2 {
+    font-family: 'Oswald';
+ }

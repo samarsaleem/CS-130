@@ -25,4 +25,4 @@ const setHighContrast = () => {
 document.querySelector('#default').addEventListener('click',setDefault)
 document.querySelector('#desert').addEventListener('click',setDesert)
 document.querySelector('#ocean').addEventListener('click',setOcean)
-document.querySelector('#highcontrast').addEventListener('click',setHighContrast)
+document.querySelector('#high-contrast').addEventListener('click',setHighContrast)

@@ -19,8 +19,8 @@ const setOcean = () => {
    document.querySelector('body').className = 'ocean';
 }
 const setHighContrast = () => {
-   console.log ('Setting theme to high constrast')
-   document.querySelector('body').className = 'high contrast';
+   console.log ('Setting theme to high-constrast')
+   document.querySelector('body').className = 'high-contrast';
 }
 document.querySelector('#default').addEventListener('click',setDefault)
 document.querySelector('#desert').addEventListener('click',setDesert)

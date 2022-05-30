@@ -1,34 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
-        <!-- stylesheets and metadata go here -->
-        <title>Chicago</title>       
-        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>Image Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/gallery.css">
+        <script type="text/javascript" src="js/index.js" defer></script>
     </head>
     <body>
-        <!-- HTML content tags go here -->
-        <!-- <nav class="navbar">
-            <strong>France</strong>
-            <a href="music.html">Music</a>
-            <a href="videos.html">Videos</a>
-        </nav> -->
         <main>
-            <h1>Chicago</h1>
-            <p>Newest home!</p>
-
-            <section class="photo-section">
-                <img src="Chicago pics/IMG_3630.jpg" />
-                <img src="Chicago pics/IMG_3631.jpg" />
-                <img src="Chicago pics/IMG_3633.jpg" />
-                <img src="Chicago pics/IMG_3635.JPG" />
-                <img src="Chicago pics/IMG_3636.JPG" />
-                <img src="Chicago pics/IMG_3638.JPG" />
-                <img src="Chicago pics/IMG_3639.JPG" />
-                <img src="Chicago pics/IMG_3640.JPG" />
-                <img src="Chicago pics/IMG_3641.JPG" />
-                <img src="Chicago pics/IMG_3642.JPG" />
-                <!-- photos go here-->
+            <!-- preview panel -->
+            <section class="preview_box">
+                <div class="featured_image" style="background-image:url('images/field1.jpg')"></div>
+                <button class="prev">&lsaquo;</button>
+                <button class="next">&rsaquo;</button>
             </section>
+
+            <!-- thumbnails -->
+            <ul class="cards"></ul>
         </main>
+        
     </body>
 </html>

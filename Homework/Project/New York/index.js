@@ -1,19 +1,19 @@
 let currentIndex =0
 
 const images = [
-    'Chicago\ pics/IMG_3630.jpg',
-    'Chicago\ pics/IMG_3631.jpg',
-    'Chicago\ pics/IMG_3633.jpg',
-    'Chicago\ pics/IMG_3635.jpg',
-    'Chicago\ pics/IMG_3636.jpg',
-    'Chicago\ pics/IMG_3638.jpg',
-    'Chicago\ pics/IMG_3639.jpg',
-    'Chicago\ pics/IMG_3640.jpg',
-    'Chicago\ pics/IMG_3641.jpg',
-    'Chicago\ pics/IMG_3642.jpg',
-    'Chicago\ pics/IMG_3815.jpg',
-    'Chicago\ pics/IMG_3816.jpg',
-    'Chicago\ pics/IMG_3817.jpg'
+    'new\ york\ pics/IMG_3598.jpg',
+    'new\ york\ pics/IMG_3599.jpg',
+    'new\ york\ pics/IMG_3602.jpg',
+    'new\ york\ pics/IMG_3603.jpg',
+    'new\ york\ pics/IMG_3604.jpg',
+    'new\ york\ pics/IMG_3605.jpg',
+    'new\ york\ pics/IMG_3606.jpg',
+    'new\ york\ pics/IMG_3607.jpg',
+    'new\ york\ pics/IMG_3608.jpg',
+    'new\ york\ pics/IMG_3609.jpg',
+    'new\ york\ pics/IMG_3812.jpg',
+    'new\ york\ pics/IMG_3813.jpg',
+    'new\ york\ pics/IMG_3814.jpg'
     
 ];
 

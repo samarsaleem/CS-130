@@ -1,34 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
-        <!-- stylesheets and metadata go here -->
-        <title>Dubai</title>       
-        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>Dubai</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/gallery.css">
+        <script type="text/javascript" src="js/index.js" defer></script>
     </head>
     <body>
-        <!-- HTML content tags go here -->
-        <!-- <nav class="navbar">
-            <strong>France</strong>
-            <a href="music.html">Music</a>
-            <a href="videos.html">Videos</a>
-        </nav> -->
         <main>
-            <h1>Dubai</h1>
-            <p>My favorite!</p>
-
-            <section class="photo-section">
-                <img src="Dubai pics/IMG_3620.jpg" />
-                <img src="Dubai pics/IMG_3621.jpg" />
-                <img src="Dubai pics/IMG_3622.jpg" />
-                <img src="Dubai pics/IMG_3623.jpg" />
-                <img src="Dubai pics/IMG_3624.jpg" />
-                <img src="Dubai pics/IMG_3625.jpg" />
-                <img src="Dubai pics/IMG_3626.jpg" />
-                <img src="Dubai pics/IMG_3627.jpg" />
-                <img src="Dubai pics/IMG_3628.jpg" />
-                <img src="Dubai pics/IMG_3629.jpg" />
-                <!-- photos go here-->
+            <!-- preview panel -->
+            <section class="preview_box">
+                <div class="featured_image" style="background-image:url('Dubai\ pics/IMG_3620.jpg')"></div>
+                <button class="prev">&lsaquo;</button>
+                <button class="next">&rsaquo;</button>
             </section>
+
+            <!-- thumbnails -->
+            <ul class="cards"></ul>
         </main>
+        
     </body>
 </html>

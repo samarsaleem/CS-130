@@ -33,11 +33,7 @@ body {
  html {
     font-family: monospace;
     line-height: 1.15;
-    text-align: center;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -ms-overflow-style: scrollbar;
-    -webkit-tap-highlight-color: transparent; }
+    text-align: center; }
 
     .cd-top--is-visible { 
         font-family: monospace;

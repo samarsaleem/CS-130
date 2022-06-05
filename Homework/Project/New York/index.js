@@ -33,7 +33,7 @@ const handleThumbnailClick = ev => {
     console.log(ev);
     const elem = ev.currentTarget;
     console.log(elem);
-    const bgImage = eelem.style.backgroundImage;
+    const bgImage = elem.style.backgroundImage;
     document.querySelector('.featured_image').style.backgroundImage = bgImage;
 } 
 
@@ -44,7 +44,8 @@ const showImage = (ev) => {
     const elem = ev.currentTarget;
     currentIndex = parseInt(elem.dataset.index);
     console.log("currentIndex:", currentIndex);
-    document.querySelector('.featured_image').setAttribute("style", `background-image:url(${images[currentIndex]})`)
+    console.log(images[currentIndex])
+    document.querySelector('.featured_image').setAttribute("style", `background-image:url('${images[currentIndex]}')`)
 };
 const showNext = (ev) => {
     currentIndex += 1;
@@ -53,7 +54,7 @@ const showNext = (ev) => {
         console.log ('loop')
     }
     console.log("currentIndex:", currentIndex);
-    document.querySelector('.featured_image').setAttribute("style", `background-image:url(${images[currentIndex]})`)
+    document.querySelector('.featured_image').setAttribute("style", `background-image:url('${images[currentIndex]}')`)
 };
 
 const showPrev = (ev) => {
@@ -63,7 +64,7 @@ const showPrev = (ev) => {
         console.log ('loop')
     }
     console.log("currentIndex:", currentIndex);
-    document.querySelector('.featured_image').setAttribute("style", `background-image:url(${images[currentIndex]})`)
+    document.querySelector('.featured_image').setAttribute("style", `background-image:url('${images[currentIndex]}')`)
 };
 
 const imageElements = document.querySelectorAll('.image');

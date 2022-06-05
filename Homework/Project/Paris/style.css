@@ -6,7 +6,7 @@ body {
  }
  
  #gallery {
-    column-count: 4;
+    column-count: 3;
     column-gap: 15px;
  /*    display: flex;
     flex-wrap: wrap; */
@@ -14,7 +14,7 @@ body {
  
  .card {
     margin-bottom: 15px;
-    border: solid 1px #ccc;
+    border: solid 2px black;
     flex-direction: column;
     break-inside: avoid;
  }
@@ -30,3 +30,22 @@ body {
        column-gap: 15px;
     }
  }
+ html {
+    font-family: monospace;
+    line-height: 1.15;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent; }
+
+    .cd-top--is-visible { 
+        font-family: monospace;
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      .cd-top--fade-out { 
+        font-family: monospace;
+        opacity: .5;
+      }

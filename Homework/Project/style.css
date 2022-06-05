@@ -170,8 +170,8 @@ main {
    line-height: 1.5;
    color: #CFD8DC;
    text-align: left;
-   background-color: #000000; }
- 
+   background-color: white; }
+   /* #CFD8DC */
  [tabindex="-1"]:focus {
    outline: 0 !important; }
  

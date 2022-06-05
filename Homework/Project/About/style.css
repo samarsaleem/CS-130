@@ -1,0 +1,53 @@
+.about {
+    position: relative;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 5rem;
+    font-family: monospace;
+  }
+  .about h3 {
+    font-size: 3em;
+    margin-bottom: -20px;
+  }
+  
+  .about p {
+    font-size: 1.5em;
+  }
+  .iframe {
+      align-items: center;
+      justify-content: center;
+  }
+  img {
+    width: 35%;
+    height: 35%
+  }
+  .instagram-media {
+
+  }
+
+
+  
+  /* .about h3 {
+    text-shadow: 2px 2px 2px #333;
+
+  }
+  
+  .about p {
+    text-shadow: 2px 2px 2px #333;
+    font-size: 1.8rem;
+  } */
+
+  .cd-top--is-visible { 
+    font-family: monospace;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out { 
+    font-family: monospace;
+    opacity: .5;
+  }
